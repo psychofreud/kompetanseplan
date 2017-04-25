@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="År" max_length="40" name="x_62418_kompetanse_plan" type="collection">
+        <element display="true" label="År" max_length="40" name="ar" type="string"/>
+    </element>
+</database>

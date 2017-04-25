@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sertifisering" max_length="40" name="x_62418_kompetanse_sertifisering" type="collection">
+        <element display="true" label="Navn" max_length="255" name="navn" type="string"/>
+        <element label="Path" max_length="32" name="path" reference="x_62418_kompetanse_path" type="reference"/>
+        <element label="Plan" max_length="32" name="plan" reference="x_62418_kompetanse_plan" type="reference"/>
+        <element choice="1" label="Type" max_length="255" name="type" type="choice">
+            <choice>
+                <element label="Sertifisering" sequence="10" value="sertifisering"/>
+                <element label="Akkreditering" sequence="20" value="akkreditering"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="path"/>
+        </index>
+        <index name="index2">
+            <element name="plan"/>
+        </index>
+    </element>
+</database>

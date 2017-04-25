@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Personlig plan" max_length="40" name="x_62418_kompetanse_personlig_plan" type="collection">
+        <element label="År" max_length="32" name="ar" reference="x_62418_kompetanse_plan" type="reference"/>
+        <element label="Kommentarer" max_length="2000" name="kommentarer" type="string"/>
+        <element display="true" label="Person" max_length="32" name="person" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="ar"/>
+        </index>
+        <index name="index2">
+            <element name="person"/>
+        </index>
+    </element>
+</database>

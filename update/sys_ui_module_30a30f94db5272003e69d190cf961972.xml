@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Sertifiseringer">053c3a50db5272003e69d190cf961909</application>
+        <filter/>
+        <name>År</name>
+        <order>200</order>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_62418_kompetanse.plan_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-19 11:17:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30a30f94db5272003e69d190cf961972</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>År</sys_name>
+        <sys_package display_value="Kompetanseplan" source="x_62418_kompetanse">b47d6e50db1272003e69d190cf9619e7</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Kompetanseplan">b47d6e50db1272003e69d190cf9619e7</sys_scope>
+        <sys_update_name>sys_ui_module_30a30f94db5272003e69d190cf961972</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-19 11:35:58</sys_updated_on>
+        <table>x_62418_kompetanse_plan</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
